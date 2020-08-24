@@ -14,7 +14,7 @@ public class Main extends Application {
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		FXMLLoader layoutLoader = new FXMLLoader(getClass().getResource("layout.fxml"));
+		FXMLLoader layoutLoader = new FXMLLoader(getClass().getResource("Layout.fxml"));
 		Parent root = layoutLoader.load();
 
         primaryStage.setTitle("JavaFX Text Editor");
